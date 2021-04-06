@@ -1,0 +1,7 @@
+.WeatherWidget {
+  border: 1px solid black;
+}
+
+.WeatherWidget > p {
+  color: red;
+}
