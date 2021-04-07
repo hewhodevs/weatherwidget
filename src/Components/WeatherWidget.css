@@ -1,7 +1,49 @@
 .WeatherWidget {
+  width: 110px;
+  min-width: 110px;
   border: 1px solid black;
+  resize: horizontal;
+  overflow: auto;
+  font-family: Tahoma,Arial,Verdana,Segoe,sans-serif;
+  text-align: center;
 }
 
-.WeatherWidget > p {
-  color: red;
+.currentWeather {
+  padding: 0.5rem 0;
+}
+
+.currentWeatherIcon > img {
+  width: 5rem;
+}
+
+.locationName > h1 {
+  font-size: 0.9rem;
+}
+
+.locationName > span {
+  font-size: 0.9rem;
+}
+
+.currentTemp {
+  font-size: 1.5rem;
+}
+
+.currentDesc {
+  font-size: 0.7rem;
+  margin-top: -0.2rem;
+}
+
+.day {
+  font-size: 0.8rem;
+  padding: 0.5rem 0;
+}
+
+.temps {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.temps > div {
+  padding: 0 0.6rem;
 }
